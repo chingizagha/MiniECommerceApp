@@ -31,3 +31,12 @@ C:\Users\cingi\Desktop\CSharpWeb\ECommerceApp\ECommerceAPI\Presentation\ECommerc
 C:\Users\cingi\Desktop\CSharpWeb\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\obj\Debug\net6.0\ECommerceAPI.API.pdb
 C:\Users\cingi\Desktop\CSharpWeb\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\obj\Debug\net6.0\ECommerceAPI.API.genruntimeconfig.cache
 C:\Users\cingi\Desktop\CSharpWeb\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\obj\Debug\net6.0\ref\ECommerceAPI.API.dll
+C:\Users\cingi\Desktop\CSharpWeb\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\Humanizer.dll
+C:\Users\cingi\Desktop\CSharpWeb\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\cingi\Desktop\CSharpWeb\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\cingi\Desktop\CSharpWeb\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\cingi\Desktop\CSharpWeb\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\cingi\Desktop\CSharpWeb\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\cingi\Desktop\CSharpWeb\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\Npgsql.dll
+C:\Users\cingi\Desktop\CSharpWeb\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\cingi\Desktop\CSharpWeb\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
