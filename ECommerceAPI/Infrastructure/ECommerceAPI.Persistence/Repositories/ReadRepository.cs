@@ -1,4 +1,5 @@
 ﻿using ECommerceAPI.Application.Repositories;
+using ECommerceAPI.Domain.Entities.Common;
 using ECommerceAPI.Persistence.Contexts;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -10,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace ECommerceAPI.Persistence.Repositories
 {
-    public class ReadRepository<T> : IReadRepository<T> where T : class
+    public class ReadRepository<T> : IReadRepository<T> where T : BaseEntity
     {
         private readonly ECommerceAPIDbContext _context;
         public ReadRepository(ECommerceAPIDbContext context)
@@ -26,12 +27,10 @@ namespace ECommerceAPI.Persistence.Repositories
         public IQueryable<T> GetWhere(Expression<Func<T, bool>> expression)
             => Table.Where(expression);
 
-        public Task<T> GetByIdAsync(string id)
-        {
-            throw new NotImplementedException();
-        }
-
         public async Task<T> GetSingleAsync(Expression<Func<T, bool>> expression)
             => await Table.FirstOrDefaultAsync(expression);
+
+        public async Task<T> GetByIdAsync(string id)
+            => await Table.FirstOrDefaultAsync(p => p.Id == Guid.Parse(id));
     }
 }
