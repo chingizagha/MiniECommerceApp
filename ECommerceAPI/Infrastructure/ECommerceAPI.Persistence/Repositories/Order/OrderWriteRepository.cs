@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ECommerceAPI.Persistence.Repositories
 {
-    public class OrderWriteRepository : ReadRepository<Order>, IOrderWriteRepository
+    public class OrderWriteRepository : WriteRepository<Order>, IOrderWriteRepository
     {
         public OrderWriteRepository(ECommerceAPIDbContext context) : base(context)
         {
